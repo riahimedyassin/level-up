@@ -1,5 +1,5 @@
 import { TableOfContents } from "@/components/table-of-content";
-import GettingStartedContent from "@/content/getting-started.mdx";
+import { redirect } from "next/navigation";
 
 export default function DocsPage() {
   const sections = [
@@ -9,11 +9,13 @@ export default function DocsPage() {
     { id: "installation", title: "Installation" },
   ];
 
+  return redirect("/docs/introduction");
+
   return (
     <div className="flex">
       <div className="flex-1 px-8 py-8 max-w-4xl">
         <article className="prose prose-neutral dark:prose-invert max-w-none">
-          <GettingStartedContent />
+          Just documentation man
         </article>
       </div>
 

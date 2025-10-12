@@ -1,8 +1,9 @@
-import { Rocket, Search } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { SidebarTrigger } from "@/components/ui/sidebar";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { Search } from "lucide-react";
+import Link from "next/link";
 
 export function DocsHeader() {
   return (
@@ -10,10 +11,10 @@ export function DocsHeader() {
       <div className="flex h-14 items-center px-4 gap-4">
         <SidebarTrigger />
 
-        <div className="flex items-center gap-2 font-semibold">
-          <Rocket />
+        <Link href={"/"} className="flex items-center gap-2 font-semibold">
+          <img src="/logo.png" alt="logo" width={20} height={20} />
           <span className="text-lg">LevelUP</span>
-        </div>
+        </Link>
 
         <div className="flex-1 flex items-center justify-center max-w-md mx-auto">
           <div className="relative w-full">
@@ -30,9 +31,11 @@ export function DocsHeader() {
           <Button variant="ghost" size="sm">
             Help
           </Button>
-          <Button variant="ghost" size="sm">
-            GitHub
-          </Button>
+          <a href="https://github.com/riahimedyassin/level-up" target="_blank">
+            <Button variant="ghost" size="sm">
+              GitHub
+            </Button>
+          </a>
         </div>
       </div>
     </header>

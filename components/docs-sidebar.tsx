@@ -33,10 +33,9 @@ const navigation = [
     title: "Home",
     icon: Rocket,
     items: [
-      { title: "Introduction", href: "/docs/getting-started" },
-      { title: "LevelUP", href: "/docs/getting-started" },
-      { title: "Meet the team", href: "/docs/getting-started" },
-      { title: "SDG", href: "/docs/getting-started" },
+      { title: "Introduction", href: "/docs/introduction" },
+      { title: "Meet the team", href: "/docs/team" },
+      { title: "SDG", href: "/docs/sdg" },
     ],
   },
   {
@@ -67,7 +66,7 @@ const navigation = [
     title: "Challenges",
     icon: BrickWall,
     items: [
-      { title: "Discussion", href: "/docs/api-reference" },
+      { title: "Focus", href: "/docs/focus" },
       { title: "Our missions", href: "/docs/api-reference#hooks" },
     ],
   },

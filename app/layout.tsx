@@ -7,12 +7,6 @@ import { Suspense } from "react";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Documentation",
-  description: "Comprehensive documentation for your work",
-  generator: "v0.app",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
