@@ -4,64 +4,107 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.98 0 0);
-  --foreground: oklch(0.2 0 0);
+  /* Soft, warm background for approachability */
+  --background: oklch(0.99 0.005 90);
+  --foreground: oklch(0.25 0.015 220);
+  
+  /* Clean cards with subtle warmth */
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.2 0 0);
+  --card-foreground: oklch(0.25 0.015 220);
+  
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.2 0 0);
-  --primary: oklch(0.45 0.15 250);
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.95 0 0);
-  --secondary-foreground: oklch(0.2 0 0);
-  --muted: oklch(0.96 0 0);
-  --muted-foreground: oklch(0.5 0 0);
-  --accent: oklch(0.45 0.15 250);
-  --accent-foreground: oklch(0.98 0 0);
+  --popover-foreground: oklch(0.25 0.015 220);
+  
+  /* Teal-Cyan primary: stability, trust, and growth */
+  --primary: oklch(0.52 0.14 195);
+  --primary-foreground: oklch(0.99 0 0);
+  
+  /* Soft neutral secondary */
+  --secondary: oklch(0.96 0.01 200);
+  --secondary-foreground: oklch(0.28 0.02 220);
+  
+  /* Muted with subtle green tint for life/growth */
+  --muted: oklch(0.97 0.01 160);
+  --muted-foreground: oklch(0.52 0.02 180);
+  
+  /* Accent: vibrant teal for vision and innovation */
+  --accent: oklch(0.58 0.16 185);
+  --accent-foreground: oklch(0.99 0 0);
+  
+  /* Success/positive: warm green for better life */
+  --success: oklch(0.65 0.18 155);
+  --success-foreground: oklch(0.99 0 0);
+  
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.9 0 0);
-  --input: oklch(0.9 0 0);
-  --ring: oklch(0.45 0.15 250);
-  --radius: 0.5rem;
-  --sidebar: oklch(0.15 0 0);
-  --sidebar-foreground: oklch(0.85 0 0);
-  --sidebar-primary: oklch(0.45 0.15 250);
-  --sidebar-primary-foreground: oklch(0.98 0 0);
-  --sidebar-accent: oklch(0.2 0 0);
-  --sidebar-accent-foreground: oklch(0.98 0 0);
-  --sidebar-border: oklch(0.25 0 0);
-  --sidebar-ring: oklch(0.45 0.15 250);
+  --destructive-foreground: oklch(0.99 0 0);
+  
+  /* Borders with subtle teal tint */
+  --border: oklch(0.92 0.01 190);
+  --input: oklch(0.95 0.01 190);
+  --ring: oklch(0.52 0.14 195);
+  
+  --radius: 0.75rem;
+  
+  /* Sidebar: deep, stable foundation */
+  --sidebar: oklch(0.18 0.03 210);
+  --sidebar-foreground: oklch(0.88 0.02 190);
+  --sidebar-primary: oklch(0.58 0.16 185);
+  --sidebar-primary-foreground: oklch(0.99 0 0);
+  --sidebar-accent: oklch(0.24 0.03 200);
+  --sidebar-accent-foreground: oklch(0.95 0.02 190);
+  --sidebar-border: oklch(0.28 0.02 210);
+  --sidebar-ring: oklch(0.58 0.16 185);
 }
 
 .dark {
-  --background: oklch(0.12 0 0);
-  --foreground: oklch(0.92 0 0);
-  --card: oklch(0.15 0 0);
-  --card-foreground: oklch(0.92 0 0);
-  --popover: oklch(0.15 0 0);
-  --popover-foreground: oklch(0.92 0 0);
-  --primary: oklch(0.55 0.18 250);
-  --primary-foreground: oklch(0.98 0 0);
-  --secondary: oklch(0.2 0 0);
-  --secondary-foreground: oklch(0.92 0 0);
-  --muted: oklch(0.2 0 0);
-  --muted-foreground: oklch(0.6 0 0);
-  --accent: oklch(0.55 0.18 250);
-  --accent-foreground: oklch(0.98 0 0);
-  --destructive: oklch(0.5 0.2 25);
+  /* Deep, rich background with subtle teal undertone */
+  --background: oklch(0.13 0.015 210);
+  --foreground: oklch(0.95 0.01 190);
+  
+  /* Elevated cards */
+  --card: oklch(0.17 0.015 210);
+  --card-foreground: oklch(0.95 0.01 190);
+  
+  --popover: oklch(0.17 0.015 210);
+  --popover-foreground: oklch(0.95 0.01 190);
+  
+  /* Brighter teal-cyan for dark mode: visibility and trust */
+  --primary: oklch(0.65 0.16 190);
+  --primary-foreground: oklch(0.15 0.02 210);
+  
+  /* Subtle elevated secondary */
+  --secondary: oklch(0.22 0.02 200);
+  --secondary-foreground: oklch(0.92 0.01 190);
+  
+  /* Muted with growth undertones */
+  --muted: oklch(0.25 0.02 195);
+  --muted-foreground: oklch(0.65 0.03 185);
+  
+  /* Vibrant accent for dark mode */
+  --accent: oklch(0.68 0.18 180);
+  --accent-foreground: oklch(0.15 0.02 210);
+  
+  /* Success: bright life-affirming green */
+  --success: oklch(0.70 0.19 155);
+  --success-foreground: oklch(0.15 0.02 210);
+  
+  --destructive: oklch(0.55 0.22 25);
   --destructive-foreground: oklch(0.98 0 0);
-  --border: oklch(0.25 0 0);
-  --input: oklch(0.25 0 0);
-  --ring: oklch(0.55 0.18 250);
-  --sidebar: oklch(0.1 0 0);
-  --sidebar-foreground: oklch(0.85 0 0);
-  --sidebar-primary: oklch(0.55 0.18 250);
-  --sidebar-primary-foreground: oklch(0.98 0 0);
-  --sidebar-accent: oklch(0.18 0 0);
-  --sidebar-accent-foreground: oklch(0.98 0 0);
-  --sidebar-border: oklch(0.2 0 0);
-  --sidebar-ring: oklch(0.55 0.18 250);
+  
+  /* Borders with subtle glow */
+  --border: oklch(0.28 0.02 200);
+  --input: oklch(0.28 0.02 200);
+  --ring: oklch(0.65 0.16 190);
+  
+  /* Sidebar: stable, grounding foundation */
+  --sidebar: oklch(0.11 0.02 215);
+  --sidebar-foreground: oklch(0.88 0.02 190);
+  --sidebar-primary: oklch(0.68 0.18 180);
+  --sidebar-primary-foreground: oklch(0.15 0.02 210);
+  --sidebar-accent: oklch(0.20 0.02 205);
+  --sidebar-accent-foreground: oklch(0.95 0.01 190);
+  --sidebar-border: oklch(0.22 0.02 210);
+  --sidebar-ring: oklch(0.68 0.18 180);
 }
 
 @theme inline {
@@ -81,6 +124,8 @@
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
   --color-destructive: var(--destructive);
   --color-destructive-foreground: var(--destructive-foreground);
   --color-border: var(--border);
