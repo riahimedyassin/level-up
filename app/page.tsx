@@ -9,13 +9,14 @@ import { PageNavbar } from "./components/navbar";
 import { FloatingThemeToggle } from "@/components/floating-theme-toggle";
 
 export const metadata: Metadata = {
-  title: "LevelUP | Because you can",
+  title: "LevelUP",
+  description: "Create your own luck",
 };
 
 export default function Home() {
   return (
     <div className="relative w-full">
-      <div className="px-48 pt-24">
+      <div className="lg:px-48 md:px-36 px-4 pt-24">
         <PageNavbar />
         <Hero />
         <Mission />
