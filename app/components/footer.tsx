@@ -25,8 +25,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              Empowering rural communities through digital literacy and
-              opportunity creation.
+              Create your own luck
             </p>
             <div className="flex items-center gap-3">
               <a

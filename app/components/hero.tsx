@@ -14,12 +14,16 @@ export const Hero = () => {
           <div className="mx-auto flex max-w-5xl flex-col gap-6">
             <h1 className="text-2xl font-semibold lg:text-6xl ">
               You have the chance to
-              <FlipWords duration={1000} words={words} />
+              <FlipWords
+                duration={1000}
+                words={words}
+                className="text-primary"
+              />
               <br />
             </h1>
             <p className="text-muted-foreground text-balance lg:text-lg">
-              We help you navigate through the digital world, shape your vision
-              and create your own luck.
+              Empowering rural communities through digital literacy and
+              opportunity creation.
             </p>
           </div>
           <Button asChild size="lg" className="mt-10">
@@ -28,7 +32,7 @@ export const Hero = () => {
             </Link>
           </Button>
         </div>
-        <LightRays color="oklch(0.52 0.14 195)" />
+        <LightRays color="oklch(0.52 0.10 195)" />
       </section>
     </div>
   );
