@@ -3,9 +3,10 @@ import { ArrowRight, Mail } from "lucide-react";
 
 export function CTA() {
   return (
-    <section className="py-20 lg:py-32 bg-gradient-to-br from-primary via-emerald-900 to-accent relative overflow-hidden rounded-xl dark:text-white">
-      <div className="absolute inset-0 bg-[url('/abstract-geometric-pattern.jpg')] opacity-10" />
-
+    <section
+      className="py-20 lg:py-32 bg-gradient-to-br from-primary via-emerald-900 to-accent relative overflow-hidden rounded-xl dark:text-white"
+      id="contact"
+    >
       <div className="container mx-auto px-4 lg:px-8 relative">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-4xl lg:text-6xl font-bold text-primary-foreground dark:text-secondary-foreground text-balance">

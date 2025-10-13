@@ -147,11 +147,11 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin size={20} className="flex-shrink-0 mt-0.5" />
-                <span>123 Impact Street, Global City, 12345</span>
+                <span>Next door</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone size={20} className="flex-shrink-0" />
-                <span>+1 (555) 123-4567</span>
+                <span>+216 6666-6666</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail size={20} className="flex-shrink-0" />
@@ -165,6 +165,13 @@ export function Footer() {
           <p className="text-muted-foreground text-sm">
             © 2025 LevelUP NGO. All rights reserved.
           </p>
+          <a
+            href="https://github.com/riahimedyassin"
+            target="_blank"
+            className="text-muted-foreground hover:text-primary transition-colors"
+          >
+            Developed by Riahi Yassin
+          </a>
           <div className="flex items-center gap-6 text-sm">
             <a
               href="#"
