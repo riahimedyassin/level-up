@@ -43,7 +43,7 @@ const navigation = [
     icon: Lightbulb,
     items: [
       { title: "Overview", href: "/docs/problem-statement" },
-      { title: "Stats and references", href: "/docs/problem-statement-stats" },
+      { title: "Details", href: "/docs/problem-statement-stats" },
     ],
   },
   {
@@ -66,8 +66,8 @@ const navigation = [
     title: "Challenges",
     icon: BrickWall,
     items: [
-      { title: "Focus", href: "/docs/focus" },
-      { title: "Our missions", href: "/docs/api-reference#hooks" },
+      { title: "Overview", href: "/docs/challenges" },
+      { title: "Migation Strategy", href: "/docs/api-reference#hooks" },
     ],
   },
   {
@@ -82,8 +82,8 @@ const navigation = [
     title: "References",
     icon: BookMarked,
     items: [
-      { title: "Stats & Copyrights", href: "/docs/stats-references" },
-      { title: "Other", href: "/docs/other-references" },
+      { title: "Papers", href: "/docs/references" },
+      { title: "Statistics", href: "/docs/stats-references" },
     ],
   },
 ];

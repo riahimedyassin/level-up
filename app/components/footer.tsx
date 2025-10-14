@@ -14,15 +14,8 @@ export function Footer() {
       <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">
-                  L
-                </span>
-              </div>
-              <span className="text-2xl font-bold text-card-foreground">
-                LevelUP
-              </span>
+            <div className="flex items-center gap-2 w-48 ">
+              <img src="/full_logo_sdg.png" />
             </div>
             <p className="text-muted-foreground leading-relaxed">
               Create your own luck
@@ -66,7 +59,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#mission"
+                  href="/docs/mission"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Our Mission
@@ -74,15 +67,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#impact"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  Impact
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#programs"
+                  href="/programs"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   Programs
@@ -90,7 +75,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="#sdg"
+                  href="/docs/sdgs"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   SDG 10
@@ -128,14 +113,6 @@ export function Footer() {
                   Partner With Us
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-muted-foreground hover:text-primary transition-colors"
-                >
-                  Careers
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -146,7 +123,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin size={20} className="flex-shrink-0 mt-0.5" />
-                <span>Next door</span>
+                <span>Darkom</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Phone size={20} className="flex-shrink-0" />
