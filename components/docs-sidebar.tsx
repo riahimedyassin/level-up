@@ -35,15 +35,15 @@ const navigation = [
     items: [
       { title: "Introduction", href: "/docs/introduction" },
       { title: "Meet the team", href: "/docs/team" },
-      { title: "SDG", href: "/docs/sdg" },
+      { title: "SDG", href: "/docs/sdgs" },
     ],
   },
   {
     title: "Problem Statement",
     icon: Lightbulb,
     items: [
-      { title: "Overview", href: "/docs/guides" },
-      { title: "Stats and references", href: "/docs/guides#styling" },
+      { title: "Overview", href: "/docs/problem-statement" },
+      { title: "Stats and references", href: "/docs/problem-statement-stats" },
     ],
   },
   {
@@ -82,8 +82,8 @@ const navigation = [
     title: "References",
     icon: BookMarked,
     items: [
-      { title: "Saber", href: "/docs/api-reference" },
-      { title: "Our missions", href: "/docs/api-reference#hooks" },
+      { title: "Stats & Copyrights", href: "/docs/stats-references" },
+      { title: "Other", href: "/docs/other-references" },
     ],
   },
 ];

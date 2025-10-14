@@ -1,25 +1,25 @@
-"use client"
 import { TableOfContents } from "@/components/table-of-content";
-import { redirect } from "next/navigation";
+import SDGS from "@/content/sdgs.mdx";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "LevelUP | SDGS",
+};
 
 export default function DocsPage() {
   const sections = [
-    { id: "introduction", title: "Introduction" },
-    { id: "getting-started", title: "Getting Started" },
-    { id: "features", title: "Key Features" },
-    { id: "installation", title: "Installation" },
+    { id: "sdgs", title: "Sustainable Development Goals" },
+    { id: "sdg-10", title: "SDG 10" },
+    { id: "why-sdg-10", title: "Why SDG 10" },
   ];
-
-  return redirect("/docs/introduction");
 
   return (
     <div className="flex">
       <div className="flex-1 px-8 py-8 max-w-4xl">
         <article className="prose prose-neutral dark:prose-invert max-w-none">
-          Just documentation man
+          <SDGS />
         </article>
       </div>
-
       <TableOfContents sections={sections} />
     </div>
   );

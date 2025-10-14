@@ -28,10 +28,7 @@ export function DocsHeader() {
 
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <Button variant="ghost" size="sm">
-            Help
-          </Button>
-          <a href="https://github.com/riahimedyassin/level-up" target="_blank">
+          <a href="https://github.com/riahimedyassin/level-up" target="_blank" className="cursor-pointer">
             <Button variant="ghost" size="sm">
               GitHub
             </Button>
