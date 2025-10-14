@@ -41,17 +41,14 @@ const navigation = [
   {
     title: "Problem Statement",
     icon: Lightbulb,
-    items: [
-      { title: "Overview", href: "/docs/problem-statement" },
-      { title: "Details", href: "/docs/problem-statement-stats" },
-    ],
+    items: [{ title: "Overview", href: "/docs/problem-statement" }],
   },
   {
     title: "Vision",
     icon: Telescope,
     items: [
-      { title: "Basic Usage", href: "/docs/examples" },
-      { title: "Advanced Patterns", href: "/docs/examples#advanced" },
+      { title: "Short Term", href: "/docs/examples" },
+      { title: "Long Term", href: "/docs/examples#advanced" },
     ],
   },
   {
@@ -67,24 +64,18 @@ const navigation = [
     icon: BrickWall,
     items: [
       { title: "Overview", href: "/docs/challenges" },
-      { title: "Migation Strategy", href: "/docs/api-reference#hooks" },
+      { title: "Migation Strategy", href: "/docs/mitigation-plan" },
     ],
   },
   {
     title: "Values",
     icon: Gem,
-    items: [
-      { title: "Saber", href: "/docs/api-reference" },
-      { title: "Our missions", href: "/docs/api-reference#hooks" },
-    ],
+    items: [{ title: "Overview", href: "/docs/values" }],
   },
   {
     title: "References",
     icon: BookMarked,
-    items: [
-      { title: "Papers", href: "/docs/references" },
-      { title: "Statistics", href: "/docs/stats-references" },
-    ],
+    items: [{ title: "Overview", href: "/docs/references" }],
   },
 ];
 

@@ -18,7 +18,7 @@ export default function DocsPage() {
 
   return (
     <div className="flex">
-      <div className="flex-1 px-8 py-8 max-w-4xl">
+      <div className="flex-1 lg:px-8 py-8 max-w-4xl">
         <article className="prose prose-neutral dark:prose-invert max-w-none">
           <Challenges />
         </article>
